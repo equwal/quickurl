@@ -1,0 +1,34 @@
+#+TITLE: quickurl layer
+
+This is the stable version of the quickurl layer. [[https://github.com/syl20bnr/spacemacs/pull/12a964][You can track the pull request
+into Spacemacs]].
+* Table of Contents                                        :TOC_4_gh:noexport:
+- [[#description][Description]]
+- [[#install][Install]]
+- [[#key-bindings][Key bindings]]
+
+* Description
+This layer does wonderful things:
+- Add keybindings to dispatch Quickurl (which is in vanilla Emacs), or to
+  navigate and dispatch the Quickurl list.
+
+* Install
+To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+add =quickurl= to the existing =dotspacemacs-configuration-layers= list in this
+file.
+
+* Key bindings
+| Key Binding | Description                                                 |
+|-------------+-------------------------------------------------------------|
+| ~SPC Q l~   | List quickurls                                              |
+| ~SPC Q Q~   | Expand quickurl abbrev at point                             |
+| ~SPC Q i~   | Ask for which quickurl to insert                            |
+| ~SPC Q e~   | Edit quickurls                                              |
+| ~SPC Q b~   | Ask to browse some url from those stored (with completion). |
+
+
+# Use GitHub URLs if you wish to link a Spacemacs documentation file or its heading.
+# Examples:
+# [[https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org#sessions]]
+# [[https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bfun/emoji/README.org][Link to Emoji layer README.org]]
+# If space-doc-mode is enabled, Spacemacs will open a local copy of the linked file.
