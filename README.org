@@ -1,3 +1,5 @@
+* This package is now pulled into Spacemacs, so it is archived. Send any issues/pull requests/etc. to them.
+
 #+TITLE: quickurl layer
 
 This is the stable version of the quickurl layer. [[https://github.com/syl20bnr/spacemacs/pull/12a964][You can track the pull request
